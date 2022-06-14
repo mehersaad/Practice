@@ -22,3 +22,6 @@ def multiply_by_x(expr, n):
         list.append(sp.expand(expr))
 
     return list
+
+
+
