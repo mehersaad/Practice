@@ -7,13 +7,14 @@ import sympy as sp
 
 x = sp.symbols('x')
 
+
 def multiply_by_x(expr, n):
     """Function which multiplies input expression by x required number of times
 
     Returns
     -------
     List with each of the iterations
-    
+
     """
 
     list = []
@@ -22,6 +23,3 @@ def multiply_by_x(expr, n):
         list.append(sp.expand(expr))
 
     return list
-
-
-
